@@ -1,20 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <title>Studio Bio</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Lawson</h1>
-    <img src = "https://cdn.pixabay.com/photo/2015/03/26/09/47/sky-690293__340.jpg" alt="My image" width="200" height="200">
-    <br>
-    <br>
-    <hr>
-    <p>I am Lawson. I am from new york. I went to school in Boston. I currently live in LA and am doing this bootcamp</p>
-    <h2>Contact Info</h2>
-    <ul>
-        <li>Email</li>
-        <li>Github</li>
-        <li>Portfolio</li>
-    </ul>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Your Name</h2>
+
+      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+
+      <p>Write a short paragraph or two about yourself, <br> or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
 </body>
+
 </html>
